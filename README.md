@@ -14,17 +14,17 @@ This tutorial will guide you through setting up a multi-container Docker applica
 ## Project Structure
 
 docker-compose-tutorial/
-.
-├── api                     
-│   ├── index.php
-│   ├── app
-│       ├── config.php
-│       ├── Database.php
-│       ├── todos.php
-├── db                      
-│   ├── dump.sql            
-├── frontend               
-│   ├── index.html          
+│
+├── api/
+│ ├── index.php
+│ ├── app/
+│ │ ├── config.php
+│ │ ├── Database.php
+│ │ └── todos.php
+│ └── db/
+│ └── dump.sql
+├── frontend/
+│ └── index.html
 ├── docker-compose.yml
 └── Dockerfile
 
